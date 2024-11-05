@@ -1,0 +1,118 @@
+ body{
+    margin-left: 100px;
+    font-weight: arial ;
+    /* background-color: #c2e7d9; */
+    background-color: #dee5e5;
+ }
+
+
+ nav{
+    background-color: #000;
+    /* background-color: #303030; */
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 76px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12) 0px 4px 4px -4px;
+    z-index: 99;
+}
+
+
+
+nav div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav a:active{
+    color: #f54320;
+}
+
+
+.start-section img{
+    height: 70px;
+    margin-left:  150px;
+    position: fixed;
+    left: 0;
+    
+}
+
+.todo-logo{
+    background: transparent;
+}
+
+.middle-section{
+    position: fixed;   
+    gap: 30px;
+/* left: 400px; */
+/* right: 300px; */
+}
+
+.right-section{
+    position: fixed;
+    right: 20px;
+}
+
+.contact-us-button{
+    padding: 15px 30px;
+    /* height: 50px; */
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+
+ /*  */
+ .todo-grid, .display-todo{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+} 
+
+.todo-grid{
+    position: relative;
+    justify-content: center;
+    top: 100px;
+}
+
+.todo-input, .due-date{
+    padding: 10px 15px ;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.add-button, .delete-todo-button{
+    background-color: rgb(147, 15, 15);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.add-button{
+    background-color: rgb(35, 133, 35);
+}

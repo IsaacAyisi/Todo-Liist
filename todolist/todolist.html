@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="start-section">
+                <img class="todo-logo" src="image/todo Logo.png" alt="">
+            </div>
+            <div class="middle-section">
+                <div><a href="home.html">Home</a></div>
+                <div><a href="#">Notes</a></div>
+                <div><a href="#">Missed Task</a></div>
+                
+            </div>
+            <div class="right-section">
+                <button class="contact-us-button">Contact Us</button>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="todo-grid">
+        <input class="js-todo-input todo-input" type="text" placeholder="Enter To do">
+        <input type="date" class="js-due-date due-date">
+        <button class="add-button" onclick="addTodo()">Add</button>
+
+        <div class="js-display-todo display-todo">
+
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>
